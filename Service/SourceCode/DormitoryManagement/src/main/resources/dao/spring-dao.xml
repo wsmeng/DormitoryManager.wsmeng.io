@@ -11,4 +11,53 @@
         
     </bean>
     
+    <bean id="BuildingsDao"
+        class="com.wsm.DormitoryManagement.daoImpl.BuildingsDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="DormitoryDao"
+        class="com.wsm.DormitoryManagement.daoImpl.DormitoryDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="StudentDao"
+        class="com.wsm.DormitoryManagement.daoImpl.StudentDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="TeacherDao"
+        class="com.wsm.DormitoryManagement.daoImpl.TeacherDaoIpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="TBManageDao"
+        class="com.wsm.DormitoryManagement.daoImpl.TBManageDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="LogDao"
+        class="com.wsm.DormitoryManagement.daoImpl.LogDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
+    <bean id="OutRecodeDao"
+        class="com.wsm.DormitoryManagement.daoImpl.OutRecodeDaoImpl">
+        
+        <property name="dataSource" ref="dataSource"/>
+        
+    </bean>
+    
 </beans>
